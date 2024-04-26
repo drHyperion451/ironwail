@@ -4059,6 +4059,7 @@ static void M_Options_DrawItem (int y, int item)
 		break;
 
 	case OPT_SNDQUAL:
+		// Original = 11,025 Hz    Remastered = 44,100 Hz
 		M_Print (x, y, sndspeed.value == 11025 ? "Original" : "Remastered");
 		break;
 

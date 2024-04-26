@@ -176,9 +176,9 @@ CFLAGS+= -DUSE_CODEC_UMX
 endif
 
 ifeq ($(HOST_OS),haiku)
-COMMON_LIBS= -lGL
+COMMON_LIBS= -framework OpenGL
 else
-COMMON_LIBS= -lGL -lm
+COMMON_LIBS= -framework OpenGL -lm
 endif
 
 LIBS = $(COMMON_LIBS) $(NET_LIBS) $(CODECLIBS)
