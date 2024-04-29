@@ -7,4 +7,7 @@ Quake/*.res
 Quake/*.exe
 Quake/ironwail
 
+# MacOS speciffic
 *.DS_Store
+*.xcworkspace
+xcuserdata/
